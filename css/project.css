@@ -1,0 +1,98 @@
+.swiper {
+    width: 100%;
+    margin: 20px 10px;
+}
+
+section {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-content {
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 40px;
+    padding: 1vh 0vw;
+    transition: all 0.3s ease;
+    font-size: x-large;
+    color: black;
+    background: rgb(211, 211, 211);
+    border: 2px solid rgb(211, 211, 211);
+}
+
+.swiper-button-prev {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.swiper-button-next {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: white;
+    background-color: #000000;
+    border-color: black;
+}
+
+/* extra */
+.headProj {
+    padding: 2vh 0vw;
+    background-color: rgb(211, 211, 211);
+}
+
+.bodyProj {
+    padding: 1vh 0vw;
+}
+
+.card_img {
+    opacity: 0.9;
+    width: 100%;
+}
+
+.projLink {
+    display: flex;
+    justify-content: center;
+    padding: 1vh 0vw;
+    background-color: rgb(211, 211, 211);
+}
+
+.projTitle {
+    text-align: center;
+}
+
+.projbtn {
+    cursor: pointer;
+    font-size: large;
+    color: #000000;
+    padding: 1vh 1.5vw;
+    margin: 0vh 0.5vw;
+    border-radius: 10px;
+}
+
+.projbtn:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}

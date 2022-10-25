@@ -1,0 +1,76 @@
+/* main body */
+.main-box {
+  margin-bottom: 5vh;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* about me */
+.mainTitle {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5vh;
+  font-size: larger;
+}
+
+#aboutbr {
+  display: none;
+}
+
+.aboutme {
+  word-wrap: break-word;
+  text-align: justify;
+  margin-bottom: 1vh;
+}
+
+.quote {
+  text-align: center;
+}
+
+
+/* Media Queries 768px */
+@media screen and (max-width: 768px) {
+  #aboutbr {
+    display: list-item;
+  }
+}
+
+/* interest CSS */
+#interest-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inteName {
+  font-size: x-large;
+  text-align: center;
+  border: 1.5px solid rgb(17, 0, 255);
+  width: 17vw;
+  padding: 4vh 0vw;
+  margin: 0vh 1vw;
+  border-radius: 10px;
+}
+
+/* Media Queries 1023px */
+@media screen and (max-width: 1023px) {
+  #interest-box {
+    flex-direction: column;
+  }
+
+  .inteName {
+    margin: 1vh 20%;
+    width: 60%;
+  }
+}
+
+/* Media Queries 768px */
+@media screen and (max-width: 768px) {
+  .inteName {
+    margin: 1vh 0%;
+    width: 100%;
+  }
+}

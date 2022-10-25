@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Teko;
+  src: url(../fonts/Teko-Regular.ttf);
+}
+
+/* main box  */
+.profile {
+  padding: 25vh 0vw;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+#userID {
+  font-size: large;
+  color: blue;
+}
+
+.dev_name {
+  display: block;
+  font-family: 'Teko', sans-serif;
+  font-size: 10vh;
+  color: red;
+}
+
+.coler {
+  font-family: 'Teko', sans-serif;
+  font-size: 10vh;
+  color: blue;
+}
+
+.dev_type_txt {
+  font-size: x-large;
+}
+
+/* Resume CSS */
+.resumeDiv {
+  margin-top: 3vh;
+}
+
+.resumeBtn {
+  padding: 1vh 5vw;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: x-large;
+  border: none;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.resumeBtn:hover {
+  background-color: rgba(108, 250, 250, 0.123);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+
+  /* main body  */
+  .profile {
+    padding: 30vh 0vw;
+    flex-direction: column;
+  }
+
+  .dev_name,
+  .coler {
+    font-size: 8vh;
+  }
+
+  .resumeDiv {
+    margin-top: 2vh;
+  }
+
+  .resumeBtn {
+    padding: 1vh 8vw;
+    font-size: large;
+  }
+}

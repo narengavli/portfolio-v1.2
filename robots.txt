@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://narengavli.github.io/index.html
