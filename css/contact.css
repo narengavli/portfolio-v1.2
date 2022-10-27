@@ -1,0 +1,60 @@
+/* contact css */
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+/* online-handle */
+.online-handle {
+    display: flex;
+    flex-direction: column;
+}
+
+#C-Handle,
+#SM-Handle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+
+.handles {
+    width: 25%;
+    padding: 2vh 0vw;
+    margin: 0vh 0.5vw;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.icon {
+    height: 1em;
+}
+
+.handles:hover {
+    background-color: rgba(108, 250, 250, 0.123);
+}
+
+
+/* media query */
+/* for smartphone */
+@media screen and (max-width: 768px) {
+
+    #C-Handle,
+    #SM-Handle {
+        flex-direction: column;
+        margin-bottom: 0vh;
+    }
+
+    .handles {
+        width: 80%;
+        margin: 1vh 10%;
+    }
+}
+
+
+
+/* google form */
+iframe {
+    height: 1000px;
+    width: 100%;
+}
