@@ -26,12 +26,14 @@
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/project.css">
     <link rel="stylesheet" href="./css/certificate.css">
+    <link rel="stylesheet" href="./css/contact.css">
 
     <!-- link font awesome -->
     <script src="https://kit.fontawesome.com/91b7a0e05b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- navbar -->
     <div class="tab">
         <button class="tablinks active" onclick="openTab(event, 'home')">HOME</button>
         <button class="tablinks" onclick="openTab(event, 'about')">ABOUT</button>
@@ -55,15 +57,16 @@
                 </span>
             </div>
             <div class="resumeDiv">
-                <a href="https://drive.google.com/file/d/1stWPrwBDv4nCXKtS9YCjIYSuDm5R0W5h/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1stWPrwBDv4nCXKtS9YCjIYSuDm5R0W5h/view?usp=sharing"
+                    target="_blank">
                     <button class="resumeBtn">RESUME</button>
                 </a>
             </div>
         </div>
     </div>
 
+    <!-- about -->
     <div id="about" class="tabcontent">
-        <!-- about -->
         <div class="about main-box" id="about">
             <span class="mainTitle">ABOUT</span>
             <div>
@@ -426,10 +429,61 @@
     <div id="contact" class="tabcontent">
         <div class="contact" id="contact">
             <span class="mainTitle">CONTACT</span>
-            <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLScgww2k4hhBTJxX3P0f-s_VB5zOE385Wsc7ucFxx3AgeBTxOQ/viewform?embedded=true"
-                frameborder="0">Loading…
-            </iframe>
+            <div class="google-form">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScgww2k4hhBTJxX3P0f-s_VB5zOE385Wsc7ucFxx3AgeBTxOQ/viewform?embedded=true"
+                    frameborder="0">Loading…
+                </iframe>
+            </div>
+            <span class="mainTitle">Get in Touch</span>
+            <div class="online-handle">
+                <div id="C-Handle">
+                    <div class="handles">
+                        <a href="https://github.com/narengavli" target="_blank"
+                            style="text-decoration: none; color:black">
+                            <i class="fa-lg fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                    <div class="handles">
+                        <a href="https://leetcode.com/narengavli" target="_blank"
+                            style="text-decoration: none; color:black">
+                            <img src="./img/icon/leetcode.svg" class="icon">
+                            <span>LeetCode</span>
+                        </a>
+                    </div>
+                    <div class="handles">
+                        <a href="https://www.hackerrank.com/narengavli" target="_blank"
+                            style="text-decoration: none; color:black">
+                            <i class="fa-lg fa-brands fa-hackerrank"></i>
+                            <span>HackerRank</span>
+                        </a>
+                    </div>
+                </div>
+                <div id="SM-Handle">
+                    <div class="handles">
+                        <a href="https://www.linkedin.com/in/narengavli/" target="_blank"
+                            style="text-decoration: none; color:black">
+                            <i class="fa-lg fa-brands fa-linkedin-in"></i>
+                            <span>Linkedin</span>
+                        </a>
+                    </div>
+                    <div class="handles">
+                        <a href="https://www.instagram.com/naren_gavli/" target="_blank"
+                            style="text-decoration: none; color:black">
+                            <i class="fa-lg fa-brands fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                    <div class="handles">
+                        <a href="https://twitter.com/naren_gavli" target="_blank"
+                            style="text-decoration: none; color:black">
+                            <i class="fa-lg fa-brands fa-instagram"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
