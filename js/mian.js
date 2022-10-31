@@ -11,9 +11,3 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
-// about page
-const today_date = new Date();
-let current_year = today_date.getUTCFullYear();
-let b_year = 2003;
-document.getElementById("age").innerHTML = current_year - b_year;
