@@ -14,20 +14,17 @@
 
 #userID {
   font-size: large;
-  color: blue;
 }
 
 .dev_name {
   display: block;
   font-family: 'Teko', sans-serif;
   font-size: 10vh;
-  color: red;
 }
 
 .coler {
   font-family: 'Teko', sans-serif;
   font-size: 10vh;
-  color: blue;
 }
 
 .dev_type_txt {
